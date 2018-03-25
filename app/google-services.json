@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1061939445974",
+    "firebase_url": "https://health-478a6.firebaseio.com",
+    "project_id": "health-478a6",
+    "storage_bucket": "health-478a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061939445974:android:71ac62548d9e1f69",
+        "android_client_info": {
+          "package_name": "com.example.saaga.healthplusplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1061939445974-e4usqsm3p6ia89fpn8qh1jlcfms7af6p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8NcQIeQjMPSFqaeNglUhPurz819IcF58"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/resize_img"
+    tools:context="com.example.saaga.healthplusplus.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/email"
+        android:textColor="#66FCF1"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/password"
+        android:layout_alignStart="@+id/title"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/editabletextform"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColorHint="#66FCF1"
+        android:textSize="28sp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:textColor="#66FCF1"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/signUp"
+        android:layout_alignStart="@+id/email"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/editabletextform"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColorHint="#66FCF1"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/login"
+        android:layout_alignStart="@+id/password"
+        android:layout_marginBottom="36dp"
+        android:fontFamily="serif"
+        android:text="Don't have an account?"
+        android:textColor="#C5C6C7"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toEndOf="@+id/login"
+        android:background="@android:color/transparent"
+        android:fontFamily="serif"
+        android:onClick="createAccount"
+        android:text="Sign Up"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="65dp"
+        android:background="@drawable/buttonstyle"
+        android:fontFamily="serif"
+        android:onClick="signUserIn"
+        android:text="Login"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="HealthPlusPlus"
+        android:textAlignment="textStart"
+        android:textColor="#66FCF1"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="wrap_content"
+        android:drawableLeft="@drawable/ic_directions_run_black_24dp"
+        android:drawableRight="@drawable/ic_directions_bike_black_24dp"
+        android:drawablePadding="45dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="Live Healthy!"
+        android:textColor="#C5C6C7"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/editText3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="#C5C6C7"
+        android:textSize="34sp" />
+
+
+</RelativeLayout>
